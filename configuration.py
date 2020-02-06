@@ -5,10 +5,10 @@
 TRANSFORMER_VERSION = '2.0'
 
 # The transformer description
-TRANSFORMER_DESCRIPTION = 'BETYdb CSV file uploader'
+TRANSFORMER_DESCRIPTION = 'Geostreams CSV uploader'
 
 # Short name of the transformer
-TRANSFORMER_NAME = 'terra.betydb'
+TRANSFORMER_NAME = 'terra.geostreams'
 
 # The sensor associated with the transformer
 TRANSFORMER_SENSOR = 'csv'
@@ -26,7 +26,7 @@ AUTHOR_EMAIL = 'schnaufer@email.arizona.edu'
 CONTRIBUTORS = ['Max Burnette']
 
 # Repository URI of where the source code lives
-REPOSITORY = 'https://github.com/AgPipeline/transformer-betydb-csvupload.git'
+REPOSITORY = 'https://github.com/AgPipeline/transformer-geostream-csvupload.git'
 
 # Hard-coded override of base docker image (used when Dockerfile is generated)
 # If a name is entered here it will be used to populate the "FROM" field of the Dockerfile
